@@ -3,7 +3,7 @@ import { Link, useNavigate } from "react-router-dom";
 import { headerLinksData } from "../../data/data";
 
 import styles from "./header.module.css";
-import logo from "../../assets/Icon.png";
+import logo from "../../assets/ico3.png";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -21,7 +21,7 @@ const Header = () => {
           <div className={styles.image_holder}>
             <img src={logo} alt="Logo" />
           </div>
-          Strengthy
+          
         </div>
         <ul className={active ? `${styles.activeList}` : ""}>
           {headerLinksData.map((link) => {

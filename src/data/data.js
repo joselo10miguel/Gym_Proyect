@@ -47,7 +47,7 @@ import thumbnail6 from "../assets/blog13.png";
 export const headerLinksData = [
   {
     id: 1,
-    title: "Home",
+    title: "Inicio",
     to: "/",
   },
   {
@@ -62,7 +62,7 @@ export const headerLinksData = [
   },
   {
     id: 4,
-    title: "Trainers",
+    title: "Máquinas",
     to: "/trainers",
   },
   {

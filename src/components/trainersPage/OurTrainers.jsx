@@ -7,8 +7,8 @@ const OurTrainers = () => {
   return (
     <div className={`${styles["our-trainers"]} container sections-padding`}>
       <div>
-        <p className="paragraph">Our Trainers</p>
-        <h2>We Trained You to Gain</h2>
+        <p className="paragraph">Los más modernos equipos y máquinas para Gimnasio y el hogar</p>
+        <h2>EXPLORAR CATÁLOGO</h2>
       </div>
       <div className={styles["trainers-boxes"]}>
         {ourTrainers.map((ele) => {
