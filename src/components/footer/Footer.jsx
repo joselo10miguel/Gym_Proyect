@@ -1,5 +1,5 @@
 import styles from "./footer.module.css";
-import logoIcon from "../../assets/Icon.png";
+import logoIcon from "../../assets/ico2.png";
 import { useNavigate } from "react-router";
 
 const Footer = () => {
@@ -8,56 +8,39 @@ const Footer = () => {
   return (
     <div className={styles.footer}>
       <div className={styles.footer_image}>
-        <h2>
-          Follow me on
-          <a
-            href="https://www.linkedin.com/in/the-mustafa-khaled/"
-            target="_blank">
-            Linked In
-          </a>
-        </h2>
+  
       </div>
       <div className={`${styles.footer_content} container `}>
         <div>
           <div className={styles.logo_holder}>
             <img src={logoIcon} alt="Logo Icon" />
 
-            <h3>Strengthy</h3>
+            <h3>INFINITYFITNESS</h3>
           </div>
           <p>
-            It is a long established fact that a reader will be distracted by
-            the readable.
+          Hacemos de lo imposible, algo simple.
           </p>
           <div className={styles.info}>
-            <span>Call :</span>
-            <p>+201151747091</p>
+            <span>Celular :</span>
+            <p>0981693799</p>
             <span>Email :</span>
             <p>mustafakhaledinfo@gmail.com</p>
           </div>
         </div>
+       
         <div>
-          <ul>
-            <li>Utility Pages</li>
-            <li onClick={() => navigate("/calculator")}>BMI Calculator</li>
-            <li onClick={() => navigate("/schedule")}>Schedule</li>
-            <li onClick={() => navigate("/errorPage")}>404 Page</li>
-            <li>Password Protected</li>
-            <li>Licenses</li>
-            <li onClick={() => navigate("/contact")}>Contact</li>
-          </ul>
-        </div>
-        <div>
-          <h3>Newsletter</h3>
-          <input type="text" placeholder="Enter Your Email" />
-          <button>Subscribe</button>
+          <h3>Siguenos en</h3>
+         
           <div className={styles.footer_icons}>
+          <br></br>
             <a
+            
               href="https://www.linkedin.com/in/the-mustafa-khaled/"
               target="_blank">
-              <i className="fa-brands fa-linkedin"></i>
+              <i className="fa-brands fa-instagram"></i>
             </a>
-            <a href="https://github.com/mustafa-khaled" target="_blank">
-              <i className="fa-brands fa-github"></i>
+            <a href="https://www.facebook.com/profile.php?id=100038990828791" target="_blank">
+              <i className="fa-brands fa-facebook"></i>
             </a>
           </div>
         </div>

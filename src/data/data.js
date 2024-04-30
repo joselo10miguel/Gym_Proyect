@@ -50,29 +50,32 @@ export const headerLinksData = [
     title: "Inicio",
     to: "/",
   },
+  /*
   {
     id: 2,
     title: "About",
     to: "/about",
   },
+
   {
     id: 3,
     title: "Classes",
     to: "/classes",
   },
+  */
   {
     id: 4,
     title: "Máquinas",
     to: "/trainers",
   },
-  {
+  /*{
     id: 5,
     title: "Blog",
     to: "/blog",
-  },
+  },*/
   {
     id: 6,
-    title: "Contact",
+    title: "Contactos",
     to: "/contact",
   },
 ];
@@ -80,7 +83,7 @@ export const headerLinksData = [
 export const fitnessTrainingData = [
   {
     id: 1,
-    title: "Pilates Training",
+    title: "Nacional",
     description: "containing Lorem Ipsum passage sand more recently with",
     image: fitnessTraining1,
     to: "/yogaClass",
@@ -88,7 +91,7 @@ export const fitnessTrainingData = [
 
   {
     id: 2,
-    title: "Aerobic Training",
+    title: "Tradicional",
     description: "containing Lorem Ipsum passage sand more recently with",
     image: fitnessTraining2,
     to: "/",
@@ -96,7 +99,7 @@ export const fitnessTrainingData = [
 
   {
     id: 3,
-    title: "CrossFit Workout",
+    title: "Hommer",
     description: "containing Lorem Ipsum passage sand more recently with",
     image: fitnessTraining3,
     to: "/",

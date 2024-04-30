@@ -7,13 +7,13 @@ const HeroSection = () => {
   return (
     <div className={styles["hero-section"]} data-aos="zoom-out-down">
       <h1 className="main-heading">
-        Keep Your Body
+      
+       El éxito es conseguir lo que quieres, 
         <br />
-        Fit & Strong
+        la felicidad es disfrutar lo que tienes.
       </h1>
       <div>
-        <button onClick={() => navigate("/schedule")}>Start Today</button>
-        <button>About Me</button>
+        
       </div>
     </div>
   );
